@@ -1,4 +1,11 @@
-<p id="notice"><%= notice %></p>
+<h1>閲覧</h1>
+<p>物件名: <%= @property.name %></p>
+<p>賃料: <%= @property.content %>円</p>
+<p>住所: <%= @property.user.name %></p>
+<p>築年数: <%= @property.content %>年</p>
+<p>備考: <%= @property.user.name %></p>
 
-<%= link_to 'Edit', edit_property_path(@property) %> |
-<%= link_to 'Back', properties_path %>
+
+
+<%= link_to '編集', edit_property_path(@property) %> |
+<%= link_to '戻る', properties_path %>

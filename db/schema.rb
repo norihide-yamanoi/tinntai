@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_05_14_063613) do
+ActiveRecord::Schema.define(version: 2022_05_14_065323) do
 
   create_table "nearest_stations", force: :cascade do |t|
     t.string "train"
